@@ -1,0 +1,35 @@
+div{
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    text-align: center;
+    display: inline-table;
+    margin: 5px auto;
+    font-weight: bold;
+
+}
+
+div:hover{
+    background-color: brown;
+    background-image: url('images/OIP.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 0, 0);
+}
+
+.image:hover{
+    background-image: url('images/sung.jinwoo.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+div > p{
+
+display: none;
+}
+
+div:hover > p{
+    display: block;
+}
