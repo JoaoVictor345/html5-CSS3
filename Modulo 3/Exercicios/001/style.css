@@ -20,5 +20,7 @@ div#q3{
 
 div#q3:hover{
     background-image: url('../../imagens/pattern004.png');
+    background-size: 50px 30px;
+    background-repeat: repeat;
 }
 
